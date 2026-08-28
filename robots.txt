@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.nexus-products.co.uk/sitemap.xml

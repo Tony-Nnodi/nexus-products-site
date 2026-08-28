@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How we operate — Nexus Products Limited</title>
+<meta name="description" content="Evidence-gated buying, spending controls enforced in code, and an append-only audit trail. How a small UK retailer runs like an institution.">
+<link rel="canonical" href="https://www.nexus-products.co.uk/how-we-operate.html">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="nexus-favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="site.css">
+<meta property="og:site_name" content="Nexus Products Limited">
+<meta property="og:title" content="How we operate — Nexus Products Limited">
+<meta property="og:description" content="Evidence-gated buying, spending controls enforced in code, and an append-only audit trail. How a small UK retailer runs like an institution.">
+<meta property="og:url" content="https://www.nexus-products.co.uk/how-we-operate.html">
+<meta property="og:image" content="https://www.nexus-products.co.uk/assets/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a><header class="site"><div class="wrap"><div class="nav">
+<a class="logo" href="./" aria-label="Nexus Products — home">
+  <img src="nexus-horizontal.svg" alt="Nexus Products — a disciplined UK marketplace retailer" height="44"></a>
+<nav aria-label="Main"><a class="nl" href="./">Home</a><a class="nl" href="how-we-operate.html" aria-current="page">How we operate</a><a class="nl" href="verify.html">Verify us</a><a class="nl" href="contact.html">Contact</a></nav>
+</div></div></header><main id="main">
+<section style="padding-top:72px"><div class="wrap">
+  <p class="eyebrow">How we operate</p>
+  <h1>The controls came first.</h1>
+  <p class="lede">Before this company bought its first case of stock, it built the system
+  that decides what it is allowed to buy. This page explains, in plain words, how that
+  works — because a counterparty who can see your controls needs fewer promises.</p>
+</div></section>
+
+<hr class="rule">
+<section><div class="wrap">
+  <h2>1 · Evidence before buying</h2>
+  <p>Our software screens candidate products against a fixed, versioned set of rules
+  using licensed market data. In outline, a product must show:</p>
+  <dl class="ledger">
+    <div class="row"><dt>Real, current demand</dt><dd>Sustained sales at a workable price —
+      not a spike, not a guess.</dd></div>
+    <div class="row"><dt>A market we can enter</dt><dd>Healthy competition between
+      independent sellers, without structural blockers that would make a new entrant
+      irrelevant.</dd></div>
+    <div class="row"><dt>Margin that survives scrutiny</dt><dd>Profitability after
+      <em>all</em> fees at a genuine supplier cost — including a downside case.
+      A missing fact counts as a failure, never a pass.</dd></div>
+  </dl>
+  <p style="margin-top:18px">The rules are deterministic: the same facts always produce
+  the same verdict, and the verdict is recorded with the evidence that produced it.
+  A human — the director — makes the final call on every product the system approves.
+  The system's job is to make it impossible to buy on impulse.</p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 860 120" role="img" aria-label="Pipeline: market evidence flows into fixed rules, producing a recorded verdict, then a human decision, then a controlled purchase. Every step writes to the audit trail.">
+      <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+      <g fill="none" stroke="currentColor" stroke-width="1.6">
+        <rect x="8" y="28" width="140" height="44" rx="4"/>
+        <rect x="188" y="28" width="140" height="44" rx="4"/>
+        <rect x="368" y="28" width="140" height="44" rx="4"/>
+        <rect x="548" y="28" width="140" height="44" rx="4"/>
+        <rect x="716" y="28" width="136" height="44" rx="4"/>
+        <line x1="148" y1="50" x2="184" y2="50" marker-end="url(#ar)"/>
+        <line x1="328" y1="50" x2="364" y2="50" marker-end="url(#ar)"/>
+        <line x1="508" y1="50" x2="544" y2="50" marker-end="url(#ar)"/>
+        <line x1="688" y1="50" x2="712" y2="50" marker-end="url(#ar)"/>
+        <path d="M78 72 v22 h706 v-22" stroke-dasharray="4 4"/>
+      </g>
+      <g font-family="Public Sans,sans-serif" font-size="13" fill="currentColor" text-anchor="middle">
+        <text x="78" y="54">Market evidence</text>
+        <text x="258" y="54">Fixed rules</text>
+        <text x="438" y="54">Recorded verdict</text>
+        <text x="618" y="54">Human decision</text>
+        <text x="784" y="54">Controlled buy</text>
+        <text x="430" y="112" font-size="11.5" opacity=".75">every step writes to an append-only audit trail</text>
+      </g>
+    </svg>
+    <figcaption>The buying pipeline. Nothing skips a stage; nothing edits the record afterwards.</figcaption>
+  </figure>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2>2 · Spending controlled in code</h2>
+  <p>Our working-capital rules — maximum order size, total exposure, and how many
+  products we may run at once — are enforced by the software that raises purchase
+  orders. An order that would breach them cannot be created. This is why our
+  commitments to suppliers are small, and kept.</p>
+
+  <h2 style="margin-top:44px">3 · An audit trail no one can edit</h2>
+  <p>Every action — a product screened, a decision made, a limit checked, an order
+  raised — is written to an append-only record at the moment it happens, in the same
+  transaction. There is no code path that changes our state silently. When we say
+  we can show our working, that is literally true.</p>
+
+  <h2 style="margin-top:44px">4 · Genuine goods, authorised sources</h2>
+  <p>We buy from authorised UK wholesale distributors, we keep every invoice, and the
+  brands we sell keep their own names. We are a retailer — the product's identity
+  belongs to its maker, and our job is to be a flawless counterparty to both sides.</p>
+
+  <p style="margin-top:36px"><a class="cta" href="verify.html">Verify our company record</a>
+  <a class="cta ghost" href="contact.html">Ask us anything about this</a></p>
+</div></section>
+</main><footer class="site"><div class="wrap"><div class="cols">
+<img src="nexus-primary-stacked-reversed.svg" alt="" role="presentation">
+<div class="legal">
+<p><strong style="color:#F4F5F2">Nexus Products Limited</strong> is registered in England and Wales,
+company number <span class="mono">17425320</span>.<br>
+Registered office: 205 Regent Street, London, England, W1B 4HB.<br>
+NexusGoods is the retail storefront of Nexus Products Limited.</p>
+<p><a href="verify.html">Verify us</a> &nbsp;·&nbsp; <a href="privacy.html">Privacy</a>
+&nbsp;·&nbsp; <a href="accessibility.html">Accessibility</a>
+&nbsp;·&nbsp; <a href="contact.html">Contact</a></p>
+<div class="fine">© 2026 Nexus Products Limited. Product names and brands sold through our storefronts
+belong to their respective owners; we are a retailer, not the manufacturer.
+This site sets no cookies and runs no trackers.</div>
+</div></div></div></footer>
+</body></html>
